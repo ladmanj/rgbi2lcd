@@ -19,6 +19,9 @@ The verilog code is implemented in https://github.com/icebreaker-fpga/icebreaker
 The iCE40 UltraPlus 5K is interresting because the whole 16 kilowords of screenbuffer fits into it, besides the fact that there are opensource tools for this FPGA.
 The tools are here https://github.com/cliffordwolf/icestorm
 
+Install the tools and ther run make for building, make prog for the fpga programming, make sim for simulation.
+For simulation you need to ungzip the RGBIS.hexval stimulus data file first.
+
 ![hardware](https://github.com/ladmanj/rgbi2lcd/blob/master/rgbi2lcd_hw.jpg)
 
 Have fun!
