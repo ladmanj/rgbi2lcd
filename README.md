@@ -23,7 +23,7 @@ Of course it can be adapted for different displays or to output to good old anal
 I just wanted to use the display i have.
 
 The verilog code is implemented in https://github.com/icebreaker-fpga/icebreaker board with iCE40 UltraPlus 5K.
-The iCE40 UltraPlus 5K is interresting because the whole 16 kilowords of screenbuffer fits into it, besides the fact that there are opensource tools for this FPGA.
+The iCE40 UltraPlus 5K is interresting because the whole 16 kilowords of screen buffer fits into it, besides the fact that there are opensource tools for this FPGA.
 The tools are here https://github.com/cliffordwolf/icestorm
 
 Install the tools and then run 
