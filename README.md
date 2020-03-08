@@ -23,7 +23,7 @@ Of course it can be adapted for different displays or to output to good old anal
 I just wanted to use the display i have.
 
 The verilog code is implemented in https://github.com/icebreaker-fpga/icebreaker board with iCE40 UltraPlus 5K.
-The iCE40 UltraPlus 5K is interresting because the whole 16 kilowords of screen buffer fits into it, besides the fact that there are opensource tools for this FPGA.
+The iCE40 UltraPlus 5K is interresting because the whole 64 kilowords of screen buffer fits into it, besides the fact that there are opensource tools for this FPGA.
 The tools are here https://github.com/cliffordwolf/icestorm
 
 Install the tools and then run 
@@ -41,6 +41,12 @@ make sim
 for simulation.
 
 For simulation you need to ungzip the RGBIS.hexval stimulus data file first.
+
+Physical installation to the computer is depicted here http://www.8bit.8u.cz/Files/Faudraj/plus3-p.jpg.
+The assignment of the signals to the FPGA ports is in the source code.
+
+**Important: You must reduce the voltage levels from 5V to 3.3V.**
+I'm using resistor dividers with 150R up and 300R down because then the output impedance is 100R. Originaly i was planning to match the impedance on the FPGA side with RC termination, but that was omissed in the end.
 
 ![hardware](https://github.com/ladmanj/rgbi2lcd/blob/master/rgbi2lcd_hw.jpg)
 
