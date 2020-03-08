@@ -46,7 +46,7 @@ Physical installation to the computer is depicted here http://www.8bit.8u.cz/Fil
 The assignment of the signals to the FPGA ports is in the source code.
 
 **Important: You must reduce the voltage levels from 5V to 3.3V.**
-I'm using resistor dividers with 150R up and 300R down because then the output impedance is 100R. Originaly i was planning to match the impedance on the FPGA side with RC termination, but that was omissed in the end.
+I'm using resistor dividers with 150R up and 300R down because then the output impedance is 100R. Originaly i was planning to match the impedance on the FPGA side with RC termination, but that was omitted in the end.
 
 ![hardware](https://github.com/ladmanj/rgbi2lcd/blob/master/rgbi2lcd_hw.jpg)
 
